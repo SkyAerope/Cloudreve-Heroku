@@ -17,4 +17,4 @@ Name = $DB_Name
 Charset = $DB_Charset
 TablePrefix = $DB_TablePrefix
 EOF
-(redis-server &) && (./cloudreve -c ./conf.ini)
+./cloudreve -c ./conf.ini
